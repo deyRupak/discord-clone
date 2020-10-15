@@ -11,7 +11,14 @@ import { Headset, InfoOutlined, SignalCellularAlt } from '@material-ui/icons';
 
 import SidebarChannel from './SidebarChannel'
 
+import { useSelector } from 'react-redux'
+import { selectUser } from './features/userSlice'
+import  { auth } from './firebase'
+
 function Sidebar() {
+
+    const user = useSelector(selectUser)
+
     return (
       <div className="sidebar">
         <div className="sidebar__top">
@@ -50,10 +57,10 @@ function Sidebar() {
         </div>
 
         <div className="sidebar__profile">
-          <Avatar />
+          <Avatar onClick={() => auth.signOut()} src={user.photo}/>
           <div className="sidebar__profileInfo">
-            <h3>Username</h3>
-            <p>#myID</p>
+            <h3>{user.displayName}</h3>
+            <p>#{user.uid.substring(0,5)}</p>
           </div>
 
           <div className="sidebar__profileIcons">
