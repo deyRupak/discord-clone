@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Counter } from './features/Counter';
 import './App.css';
 
 import './Sidebar'
@@ -12,9 +11,7 @@ function App() {
     <div className="app">
 
       <Sidebar />
-
       <Chat />
-
 
     </div>
   );
