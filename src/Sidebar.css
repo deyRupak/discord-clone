@@ -4,6 +4,13 @@
     flex: 0.25;
     height: 100vh;
     background-color: #2f3135; 
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.sidebar::-webkit-scrollbar {
+    display: none;
 }
 
 .sidebar__top {
