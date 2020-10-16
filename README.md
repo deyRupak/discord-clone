@@ -1,4 +1,18 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# discord-clone
+
+<p align="center">
+A Discord Clone with React.js + REDUX + Firebase.
+
+<br></br>
+<center>
+<img src="./src/static/discord1.jpg" style="width: 80%">
+</center>
+<br><br/>
+<center>
+<img src="./src/static/discord2.jpg" style="width: 80%">
+</center>
+</p>
+
 
 ## Available Scripts
 
