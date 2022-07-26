@@ -1,7 +1,11 @@
 # discord-clone
 
 <p align="center">
-A Discord Clone with React.js + REDUX + Firebase.
+
+<ul>
+  <li>Chat application built with React, MUI, Redux and Firebase.</li>
+  <li>Features: Google-Auth, Instant messaging, Chatroom creation.</li>
+</ul>
 
 <br></br>
 <center>
