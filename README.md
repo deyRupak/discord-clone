@@ -1,5 +1,7 @@
 # discord-clone
 
+[discord-clone-rdx.web.app](https://discord-clone-rdx.web.app/)
+
 <p align="center">
 
 <ul>
